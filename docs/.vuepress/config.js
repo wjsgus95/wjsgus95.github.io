@@ -66,6 +66,4 @@ module.exports = {
             },
         ],
     ],
-    // Deploy base
-    base: "/blog-vuepress/",
 }
