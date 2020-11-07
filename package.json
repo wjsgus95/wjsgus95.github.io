@@ -1,0 +1,26 @@
+{
+  "name": "blog-vuepress",
+  "version": "1.0.0",
+  "description": "Welcome to my blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjsgus95/blog-vuepress.git"
+  },
+  "author": "Hyunjun Cheon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjsgus95/blog-vuepress/issues"
+  },
+  "homepage": "https://github.com/wjsgus95/blog-vuepress#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "dependencies": {
+    "vuepress-theme-meteorlxy": "^1.9.0"
+  }
+}
