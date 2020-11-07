@@ -49,7 +49,7 @@ module.exports = {
         comments: {
             platform: 'github', // Optional, default is 'github'. You can also choose 'gitlab', 'bitbucket'. Check Vssue docs for details.
             owner: 'wjsgus95',
-            repo: 'blog-vuepress',
+            repo: 'wjsgus95.github.io',
             clientId: '83e57b33578d7e181898',
             clientSecret: 'ea2578531c64721d7a6ef15a111dde6fcbc20c2c',
             autoCreateIssue: process.env.NODE_ENV !== 'development', // Optional, this will not create issue autoly in development mode
