@@ -63,10 +63,12 @@ module.exports = {
                     hostname: 'https://wjsgus95.github.io',
                 },
             },
-					  '@vuepress/google-analytics',
-					  {
+        ],
+				[
+						'@vuepress/google-analytics',
+						{
 							'ga': 'UA-G-1235YFPJGC',
 						},
-        ],
+				],
     ],
 }
