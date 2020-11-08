@@ -2,7 +2,7 @@
 category: hello
 tags:
   - world
-date: 2020-11-08
+date: 2020-11-07
 title: Hello, world!
 vssue-title: Hello, world!
 ---
