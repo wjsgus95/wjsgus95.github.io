@@ -9,9 +9,9 @@ module.exports = {
     themeConfig: {
         lang: 'en-US',
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'About', link: '/about/' },
-            { text: 'CV', link: '/cv/' },
+            { text: 'Home', link: '/', exact: true },
+            { text: 'About', link: '/about/', exact: false },
+            { text: 'CV', link: '/cv/', exact: false },
             { text: 'Github', link: 'https://www.github.com/wjsgus95' },
         ],
         personalInfo: {
@@ -21,7 +21,6 @@ module.exports = {
             location: 'South Korea',
             organization: 'Yonsei University',
             avatar: '/img/profile.jpg',
-            //avatar: 'https://raw.githubusercontent.com/wjsgus95/blog-vuepress/gh-pages/img/profile.jpg',
 
             sns: {
                 github: {

@@ -21,6 +21,7 @@
     "vuepress": "^1.7.1"
   },
   "dependencies": {
+    "devicon": "^2.2.0",
     "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }
