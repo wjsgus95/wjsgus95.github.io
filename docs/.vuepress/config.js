@@ -55,6 +55,14 @@ module.exports = {
 	},
   },
   // index.html head props
+  head: [
+	[		
+      'meta', {
+		name: "google-site-verification",
+		content: "ZjUmcoLp3qIZx_rFmGsfAz4lkzB4Fw64G36nLi_5ATk",
+	  },
+	],
+  ],
   /*
   head: [
 	[
