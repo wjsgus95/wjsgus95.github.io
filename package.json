@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "devicon": "^2.2.0",
+    "vuepress-plugin-google-tag-manager": "0.0.4",
     "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }

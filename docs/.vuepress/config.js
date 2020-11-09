@@ -55,6 +55,7 @@ module.exports = {
 	},
   },
   // index.html head props
+  /*
   head: [
 	[
 	  'script', {
@@ -70,6 +71,7 @@ module.exports = {
 		  gtag('config', 'G-1235YFPJGC');
 	  ` ],
   ],
+  */
   // Plugins
   plugins: [
 	[
@@ -79,6 +81,12 @@ module.exports = {
 		  hostname: 'https://wjsgus95.github.io',
 		},
 	  },
+	],
+	[
+	  'vuepress-plugin-google-tag-manager',
+	  {
+		'gtm': 'GTM-W39H86Z',
+	  }
 	],
   ],
 }
