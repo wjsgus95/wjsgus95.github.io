@@ -63,32 +63,13 @@ module.exports = {
 	  },
 	],
   ],
-  /*
-  head: [
-	[
-	  'script', {
-		async: true,
-		src: 'https://www.googletagmanager.com/gtag/js?id=G-1235YFPJGC'
-	  }
-	],
-	['script', {}, `
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-1235YFPJGC');
-	  ` ],
-  ],
-  */
   // Plugins
   plugins: [
-	[
-	  '@vuepress/blog',
-	  {
-		sitemap: {
-		  hostname: 'https://wjsgus95.github.io',
+	[		
+		'sitemap',
+		{				
+			hostname: 'https://wjsgus95.github.io',
 		},
-	  },
 	],
 	[
 	  'vuepress-plugin-google-tag-manager',
