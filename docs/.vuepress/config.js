@@ -10,7 +10,7 @@ module.exports = {
 	lang: 'en-US',
 	nav: [
 	  { text: 'Home', link: '/', exact: true },
-	  { text: 'About', link: '/about/', exact: false },
+	  { text: 'Posts', link: '/posts/', exact: false },
 	  { text: 'CV', link: '/cv/', exact: false },
 	  { text: 'Github', link: 'https://www.github.com/wjsgus95' },
 	],
