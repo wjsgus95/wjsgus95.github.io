@@ -14,7 +14,11 @@ Demystifying the concepts of hash table
 
 <!-- more -->
 
+------------
 <TOC />
+
+
+-------------
 
 I remember studying data structures for the first time in my sophomore year, hash was one of the vaguest concept I learned. That's why I wanted to write about it as the first post on my blog, to pin down what it really is. In the process I hope it helps other people trying to understand the concept of it as well. Okay so here it goes. Today, we'll have a dive into hash tables. I intend to make this a series as I walk through "Cracking the Coding Interview".
 
