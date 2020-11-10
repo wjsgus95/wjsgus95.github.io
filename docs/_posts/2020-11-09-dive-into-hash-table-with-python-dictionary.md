@@ -1,9 +1,9 @@
 ---
 title: A Dive into Hash Table
-category: docs
+category: walkthrough
 tags:
  - data structure
- - walkthrough
+ - python
 date: 2020-11-10
 vssue-title: A Dive into Hash Table
 ---
