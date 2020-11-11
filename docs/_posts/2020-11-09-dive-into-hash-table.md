@@ -26,7 +26,7 @@ I remember studying data structures for the first time in my sophomore year, has
 
 ##  What is Hash Table?
 
-Hash tables serve the purpose of efficient look up for data(**often referred to as keys**). The two components of a hash table is a **hash function** and **array**. Hash function handles where in the array will the data be stored. So if hash table has an array, when would we want to use it over a simple array? First case is the data is not an indexable type. If you want to store some strings, then you can't simply use the string as an index. Second, you want to minimize memory usage. Say you want to store integers, which are literally index themselves. If you expect to your integers to range from 0 to infinitely big number, your computer will crash trying to allocate that big of an array in the memory.
+Hash tables serve the purpose of efficient look up for data(**often referred to as keys**). The two components of a hash table is a **hash function** and an **array**. Hash function handles where in the array will data be stored. So if hash table has an array, when would we want to use it over a simple array? First case is the data is not an indexable type. If you want to store some strings, then you can't simply use the string as an index. Second case is you want to minimize memory usage. Say you want to store integers, which are literally index themselves. If you expect your integers to range from 0 to infinitely big numbers, your computer will crash trying to allocate that big of an array in the memory.
 
 ### What is Hash Function Really?
 
@@ -69,7 +69,7 @@ Let's see what options there are to solve hash collision and their pros and cons
 
 ### Approach 1: Chaining
 
-This is the most common approach to solving hash collision. The idea is when hash collision happens, you the colliding keys together in the same slot in array anyway. To do so, array stores containers called **buckets**. When you find the right bucket for given key, you are expected to traverse through the bucket looking for the value. **Buckets are typically implemented with a linked list**. Code below is an example.
+This is the most common approach to solving hash collision. The idea is when hash collision happens, you put the colliding keys together in the same slot anyway. To do so, array stores containers called **buckets**. When you find the right bucket for given key, you are expected to traverse through the bucket looking for the value. **Buckets are typically implemented with a linked list**. Code below is an example.
 
 ```python
 from typing import Callable
@@ -118,13 +118,13 @@ False
 ```
 
 - pros
-  - You can store more keys than key space size. You can have key space of 100 and still store 200 keys in the table for example.
+  - You can store more keys than key space size. For example, You can have key space of 100 and still store 200 keys in the table.
 - cons
-  - With many hash collisions due to bad hash function or imbalanced data, it will take much more time to look up a key in bucket.
+  - With many hash collisions due to bad hash function or imbalanced data, it will take much more time to look up a key in a bucket.
 
 ### Approach 2: Open Addressing
 
-This approach gives up on finding the exact hash slot, hence the name open addressing. Instead, **if a slot is already taken, you store the new key in another slot**. Way of choosing "another slot" is called **probing**. Here we use linear probing, which simply increments slot number until you find an empty one. Let's get back to the example of keys "abc" and "cba". When you first store "abc", it will take slot 94. Then when you store "cba", slot 94 is taken so it goes to 95. This ensures there's only one key stored in each slot, at the cost of losing the certainty of data's exact location.
+This approach gives up on finding the exact hash slot, hence the name open addressing. Instead, **if a slot is already taken, you store the new key in another slot**. Way of choosing "another slot" is called **probing**. Here we use linear probing, which simply increments slot number until you find an empty one. Let's get back to the example of keys "abc" and "cba". When you first store "abc", it will take slot 94. Then when you store "cba", slot 94 is taken so it goes to 95. This ensures there's only one key stored in each slot, at the cost of losing certainty of data's exact location.
 
 ```python
 from typing import Callable
@@ -189,6 +189,11 @@ False
 So far we have used hash tables to store keys only, but with few modifications you can use them to store key-value pairs. Let's take a look at chaining approach. It's as simple as storing key-value pairs instead of just keys.
 
 ```python
+from typing import Any
+
+Key = str
+Value = Any
+
 class HashTableChaining:
     def __init__(self, my_hash: Callable):
         self.hash = my_hash
