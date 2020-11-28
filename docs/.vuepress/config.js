@@ -15,11 +15,11 @@ module.exports = {
 	  { text: 'Github', link: 'https://www.github.com/wjsgus95' },
 	],
 	personalInfo: {
-	  nickname: 'june',
-	  description: '(wanna be) jr backend devloper',
+	  nickname: 'June',
+	  description: 'Jr Backend Engineer',
 	  email: 'wjsgus95@yonsei.ac.kr',
 	  location: 'South Korea',
-	  organization: 'Yonsei University',
+	  organization: 'Coupang',
 	  avatar: '/img/profile.jpg',
 
 	  sns: {

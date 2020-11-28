@@ -1,6 +1,5 @@
 ---
 title: CV
-#layout: CVLayout
 aside: true
 ---
 
@@ -15,7 +14,9 @@ aside: true
 - Github: [here](https://github.com/wjsgus95)
 - LinkedIn: [here](https://www.linkedin.com/in/hyunjun-jeon-89182310a/)
 
-
+## Work Experience
+### Coupang - Backend Engineer
+*Dec 2020 - Present*
 
 ## Education
 ### Yonsei University - *B.S in Computer Science*
