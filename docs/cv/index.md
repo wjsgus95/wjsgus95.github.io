@@ -37,6 +37,13 @@ GPA 3.9/4.3
 
 
 ## Academic Experience
+### International Conference Paper
+- J. Lee, Y. Kim, Y. Ryu, W. Sodsong, **H. Jeon**, J. Park, B. Burgstaller, and B. Scholz, ”Julia Cloud Matrix
+Machine: Dynamic Matrix Language Acceleration on Multicore Clusters in the Cloud”, In Proceedings of the 14th
+International Workshop on Programming Models and Applications for Multicores and Manycores, PMAM@PPoPP,
+2023
+
+
 ### NPUSim - *Intelligent Computer Systems Lab*
 *June 2018 - Feb 2020  
 Platforms/Languages: Linux, C++*   
