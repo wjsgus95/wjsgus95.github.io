@@ -16,8 +16,8 @@ module.exports = {
 	],
 	personalInfo: {
 	  nickname: 'June',
-	  description: 'Jr Backend Engineer',
-	  email: 'wjsgus95@yonsei.ac.kr',
+	  description: 'Senior Backend Engineer',
+	  email: 'wjsgus95@gmail.com',
 	  location: 'South Korea',
 	  organization: 'Coupang',
 	  avatar: '/img/profile.jpg',
