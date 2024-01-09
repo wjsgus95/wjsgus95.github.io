@@ -7,7 +7,7 @@ aside: true
 
 <TOC :include-level="[2, 2]"/>
 
-## Info
+## Contact
 
 - Phone: (+82)10-7610-2541
 - Email: <wjsgus95@gmail.com>
