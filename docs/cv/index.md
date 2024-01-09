@@ -10,18 +10,27 @@ aside: true
 ## Info
 
 - Phone: (+82)10-7610-2541
-- Email: <wjsgus95@yonsei.ac.kr>
+- Email: <wjsgus95@gmail.com>
 - Github: [here](https://github.com/wjsgus95)
 - LinkedIn: [here](https://www.linkedin.com/in/hyunjun-jeon-89182310a/)
 
 ## Work Experience
+### Coupang - Senior Backend Engineer
+*Mar 2023 - Present*
+- Created attributed auto-complete framework, a configuration platform that lets you configure promotions on
+auto-complete within 10 minutes, serviced 32 A/B tests within 6 months
+- Developed buy-again recommendations on auto-complete, drove x\% sitewide GMV lift
+
 ### Coupang - Backend Engineer
-*Dec 2020 - Present*
+*Dec 2020 - Feb 2023*
+- Developed widget platform, a real-time and configuration-driven server-driven-layout engine for widgets in search domain
+- Implemented filter ranking framework based on various customer signals like buyer conversion
+- Created and maintained the MSA service for widgets in the search domain (including CI/CD, monitoring & alerts)
 
 ## Education
 ### Yonsei University - *B.S in Computer Science*
-*March 2018 - Feb 2021 (Expected)*  
-GPA 3.88/4.3 - Top 9% (13/143) of the class
+*March 2018 - Feb 2021*  
+GPA 3.9/4.3 - Top 9% (13/143) of the class
 
 
 ## Research Experience
