@@ -14,7 +14,7 @@ aside: true
 - Github: [here](https://github.com/wjsgus95)
 - LinkedIn: [here](https://www.linkedin.com/in/hyunjun-jeon-89182310a/)
 
-## Work Experience
+## Industry Experience
 ### Coupang - Senior Backend Engineer
 *Mar 2023 - Present*
 - Created attributed auto-complete framework, a configuration platform that lets you configure promotions on
@@ -36,7 +36,7 @@ GPA 3.9/4.3
 - Teaching assistant scholarship (2019)
 
 
-## Research Experience
+## Academic Experience
 ### NPUSim - *Intelligent Computer Systems Lab*
 *June 2018 - Feb 2020  
 Platforms/Languages: Linux, C++*   
@@ -48,43 +48,6 @@ as GPGPU-Sim simulates GPUs. The project puts emphasis on analyzing on-chip memo
  with that of DRAMs. - Project Lead from Feb. 2019 to Feb. 2020.  
 
 
-## Projects
-### RDBMS Emulation with Redis - *Team Project*
-*Sep 2018 - Dec 2018  
-Platforms/Languages: Linux, C, Python*  
-
-Modified Redis source code to support SQL queries on Redis cluster with each Redis
- object being a table. Simulator has Python User Interface, and supports create, 
- insert, select, delete and update commands on single tables. Select command with
- where, group by and having clauses is supported as well. Source code is available
- [here](https://github.com/wjsgus95/RDBMS-with-Redis),
- scored 98/100 where the class average was 41/100.
-
-### MiniC Compiler - *Individual Project*
-*Sep 2018 - Dec 2018  
-Platforms/Languages: Linux, Gradle, Java*
-
-Developed compiler for MiniC which is a simpler version of C. Implemented recursive
- descent parser with visitor design pattern. Compiler takes MiniC code as input,
-  and outputs Jasmine assembly code that runs on JVM.
-
-
-### Proxy Server - *Individual Project*
-*Oct 2018  
-Platforms/Languages: Linux, Python*  
-
-Developed HTTP proxy server in Python. The server removes header fields relevant
- to proxy connection to ensure transparent proxy. Multi-threaded and supports
- persistent connection. Source code is available 
- [here](https://github.com/wjsgus95/Python-Proxy-Server)
-
-
-## Honors ans Awards
- - The National Scholarship for Science and Engineering - *Spring 2018*
- - Honors - *Spring 2018*
-
-
-## Teaching Experience
 ### Underwood International College, Yonsei University
 *Sep 2019 - Dec 2019  
 Python*  
