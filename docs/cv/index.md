@@ -30,7 +30,10 @@ auto-complete within 10 minutes, serviced 32 A/B tests within 6 months
 ## Education
 ### Yonsei University - *B.S in Computer Science*
 *March 2018 - Feb 2021*  
-GPA 3.9/4.3 - Top 9% (13/143) of the class
+GPA 3.9/4.3
+- Highest 3\% GPA student honors (2018)
+- National STEM scholarship (2018)
+- Teaching assistant scholarship (2019)
 
 
 ## Research Experience
