@@ -66,14 +66,18 @@ Teaching assistant at “Computer Programming for ISED”. Each week of curricul
 
 ## Technical Skills
 ### Programming Languages
+ - Java
  - Python
  - C++
- - Java
  - Bash
 
 ### Platforms / Frameworks
- - Flask and FastAPI
- - VueJS
+ - Spring Boot
+ - React
+ - FastAPI
+ - Kubernetes
+ - Prometheus / Grafana
+ - Kafka
  - Docker
 
 ### Languages
