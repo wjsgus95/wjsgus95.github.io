@@ -75,8 +75,9 @@ Teaching assistant at “Computer Programming for ISED”. Each week of curricul
  - Spring Boot
  - React
  - FastAPI
- - Kubernetes
  - Prometheus / Grafana
+ - Kubernetes
+ - Spark
  - Kafka
  - Docker
 
